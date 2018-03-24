@@ -29,8 +29,8 @@ if ( ! defined( 'SMW_VERSION' ) ) {
 }
 
 // Show an error if Semantic MediaWiki is not loaded.
-if ( ! defined( 'SF_VERSION' ) ) {
-	die( '<b>Error:</b> You need to have <a href="https://www.mediawiki.org/wiki/Extension:Semantic_Forms">Semantic Forms</a> installed in order to use Semantic Image Input.<br />' );
+if ( ! defined( 'PF_VERSION' ) ) {
+	die( '<b>Error:</b> You need to have <a href="https://www.mediawiki.org/wiki/Extension:Page_Forms">Page Forms</a> installed in order to use Semantic Image Input.<br />' );
 }
 
 define( 'SII_VERSION', '0.3.0 alpha' );
@@ -75,6 +75,6 @@ $egSIISettings = array();
 
 function efSIISetup() {
 
-	global $sfgFormPrinter;
-	$sfgFormPrinter->registerInputType( 'InstantImageInput' );
+	global $wgPageFormsFormPrinter;
+	$wgPageFormsFormPrinter->registerInputType( 'InstantImageInput' );
 }

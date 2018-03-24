@@ -6,13 +6,13 @@
  * @since 0.1
  * 
  * @file InstantImageInput.php
- * @ingroup SFFormInput
+ * @ingroup PFFormInput
  * @ingroup SII
  * 
  * @licence GNU GPL v3+
  * @author Jeroen De Dauw < jeroendedauw@gmail.com >
  */
-class InstantImageInput extends SFFormInput {
+class InstantImageInput extends PFFormInput {
 	
 	public static function getName() {
 		return 'instantimage';

@@ -7,7 +7,7 @@ class PFImageInputHooks {
        * @return bool
        */
       public static function efPFIISetup( & $parser ) {
-            $egPFIISettings = array();
+            global $egPFIISettings = array();
             global $wgPageFormsFormPrinter;
             $wgPageFormsFormPrinter->registerInputType( 'InstantImageInput' );
       }

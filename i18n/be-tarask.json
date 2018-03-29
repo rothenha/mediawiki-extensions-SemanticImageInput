@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Klaus Rothenhäusler",
 			"Renessaince"
 		]
 	},
-	"sii-desc": "Дадае ўвод выявы, якая выштурхвае выявы зь Вікіпэдыі ў [https://www.mediawiki.org/wiki/Extension:Semantic_Forms сэмантычныя формы]",
-	"sii-imageinput-loading": "Загрузка выявы…"
+	"pfii-desc": "Дадае ўвод выявы, якая выштурхвае выявы зь Вікіпэдыі ў [https://www.mediawiki.org/wiki/Extension:Page_Forms сэмантычныя формы]",
+	"pfii-imageinput-loading": "Загрузка выявы…"
 }

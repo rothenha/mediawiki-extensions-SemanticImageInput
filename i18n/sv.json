@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Klaus Rothenhäusler",
 			"Martinwiss"
 		]
 	},
-	"sii-desc": "Lägger till en bild hämtad från Wikipedia till [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Forms]",
-	"sii-imageinput-loading": "Hämtar bild..."
+	"pfii-desc": "Lägger till en bild hämtad från Wikipedia till [https://www.mediawiki.org/wiki/Extension:Page_Forms Semantic Forms]",
+	"pfii-imageinput-loading": "Hämtar bild..."
 }

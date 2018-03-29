@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Klaus Rothenhäusler",
 			"Nedergard"
 		]
 	},
-	"sii-desc": "Lisää kuvien lataustavan, joka noutaa kuvan Wikipediasta [https://www.mediawiki.org/wiki/Extension:Semantic_Forms semanttisiin lomakkeisiin]",
-	"sii-imageinput-loading": "Ladataan kuvaa..."
+	"pfii-desc": "Lisää kuvien lataustavan, joka noutaa kuvan Wikipediasta [https://www.mediawiki.org/wiki/Extension:Page_Forms semanttisiin lomakkeisiin]",
+	"pfii-imageinput-loading": "Ladataan kuvaa..."
 }

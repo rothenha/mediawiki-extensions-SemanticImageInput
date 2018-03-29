@@ -1,11 +1,11 @@
-These is the README file for the Semantic Image Input extension.
+These is the README file for the Page Forms Input extension.
 	
 Extension page on mediawiki.org: https://www.mediawiki.org/wiki/Extension:Semantic_Image_Input
 Latest version of the readme file: https://git.wikimedia.org/blob/mediawiki%2Fextensions%2FSemanticImageInput.git/master/README
 
 == About ==
 
-Semantic Image Input is a MediaWiki extension.
+Page Forms Image Input is a MediaWiki extension and a successor for Semantic Image Input that works together with the PageForms extension.
 
 === Feature overview ===
 

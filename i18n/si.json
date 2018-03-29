@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Klaus Rothenhäusler",
 			"පසිඳු කාවින්ද"
 		]
 	},
-	"sii-imageinput-loading": "පින්තූරය පූරණය වෙමින්..."
+	"pfii-imageinput-loading": "පින්තූරය පූරණය වෙමින්..."
 }

@@ -4,18 +4,18 @@
  * File defining the settings for the Semantic Image Input extension.
  *
  * NOTICE:
- * Changing one of these settings can be done by assigning to $egSIISettings,
+ * Changing one of these settings can be done by assigning to $egPFIISettings,
  * AFTER the inclusion of the extension itself.
  *
  * @since 0.1
  *
  * @file SemanticImageInput.settings.php
- * @ingroup SII
+ * @ingroup PFII
  *
  * @licence GNU GPL v3+
  * @author Jeroen De Dauw < jeroendedauw@gmail.com >
  */
-class SIISettings {
+class PFIISettings {
 
 	/**
 	 * Returns the default values for the settings.
@@ -47,7 +47,7 @@ class SIISettings {
 		if ( $settings === false ) {
 			$settings = array_merge(
 				self::getDefaultSettings(),
-				$GLOBALS['egSIISettings']
+				$GLOBALS['egPFIISettings']
 			);
 		}
 

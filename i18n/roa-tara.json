@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Klaus Rothenhäusler",
 			"Joetaras"
 		]
 	},
-	"sii-desc": "Aggiunge 'u 'ngresse de le immaggine ca careche immaggine da Uicchipèdie sus a le [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Module Semandeche]",
-	"sii-imageinput-loading": "Stoche a careche l'immaggine..."
+	"pfii-desc": "Aggiunge 'u 'ngresse de le immaggine ca careche immaggine da Uicchipèdie sus a le [https://www.mediawiki.org/wiki/Extension:Page_Forms Module Semandeche]",
+	"pfii-imageinput-loading": "Stoche a careche l'immaggine..."
 }

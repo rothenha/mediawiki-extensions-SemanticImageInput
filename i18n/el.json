@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Klaus Rothenhäusler",
 			"Protnet",
 			"FocalPoint"
 		]
 	},
-	"sii-desc": "Προσθέτει πλαίσιο εισαγωγής εικόνων που τραβά εικόνες από τη Βικιπαίδεια στις [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Σημασιολογικές Φόρμες]",
-	"sii-imageinput-loading": "Φόρτωση εικόνας σε εξέλιξη..."
+	"pfii-desc": "Προσθέτει πλαίσιο εισαγωγής εικόνων που τραβά εικόνες από τη Βικιπαίδεια στις [https://www.mediawiki.org/wiki/Extension:Page_Forms Σημασιολογικές Φόρμες]",
+	"pfii-imageinput-loading": "Φόρτωση εικόνας σε εξέλιξη..."
 }

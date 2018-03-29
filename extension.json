@@ -1,0 +1,41 @@
+{
+	"name": "Page Forms Image Input",
+	"version": "0.5.0",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:Jeroen_De_Dauw Jeroen De Dauw]",
+		"[https://www.mediawiki.org/wiki/User:Rothenha Klaus Rothenhäusler]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Semantic_Image_input",
+	"descriptionmsg": "pfii-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "semantic",
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"PFImageInputHooks::efPFIISetup"
+		]
+	},
+	"MessagesDirs": {
+		"PFImageInput": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"PFIISettings": "PFImageInput.settings.php",
+		"InstantImageInput": "includes/InstantImageInput.php",
+		"PFImageInputHooks": "PFImageInputHooks.php"
+	},
+	"ResourceModules": {
+		"pfii.image": {
+			"scripts": [
+				"jquery.instantImage.js",
+				"pfii.instantImage.js"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "SemanticImageInput/resources"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 1
+}

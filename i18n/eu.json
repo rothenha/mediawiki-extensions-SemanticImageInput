@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Klaus Rothenhäusler",
 			"Subi"
 		]
 	},
-	"sii-imageinput-loading": "Irudia kargatzen..."
+	"pfii-imageinput-loading": "Irudia kargatzen..."
 }

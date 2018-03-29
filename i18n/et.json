@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Klaus Rothenhäusler",
 			"Avjoska"
 		]
 	},
-	"sii-imageinput-loading": "Pildi laadimine..."
+	"pfii-imageinput-loading": "Pildi laadimine..."
 }

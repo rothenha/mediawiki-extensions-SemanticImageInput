@@ -7,10 +7,11 @@
  * 
  * @file InstantImageInput.php
  * @ingroup PFFormInput
- * @ingroup SII
+ * @ingroup PFII
  * 
  * @licence GNU GPL v3+
  * @author Jeroen De Dauw < jeroendedauw@gmail.com >
+ * @author Klaus Rothenhäusler < rothenha@gmail.com >
  */
 class InstantImageInput extends PFFormInput {
 	
@@ -53,25 +54,25 @@ class InstantImageInput extends PFFormInput {
 		$params[] = array(
 			'name' => 'type',
 			'type' => 'str',
-			'description' => wfMessage( 'sii-imageinput-type' )->text()
+			'description' => wfMessage( 'pfii-imageinput-type' )->text()
 		); // page
 		
 		$params[] = array(
 			'name' => 'hide',
 			'type' => 'bool',
-			'description' => wfMessage( 'sii-imageinput-hide' )->text()
+			'description' => wfMessage( 'pfii-imageinput-hide' )->text()
 		); // false
 		
 		$params[] = array(
 			'name' => 'width',
 			'type' => 'int',
-			'description' => wfMessage( 'sii-imageinput-width' )->text()
+			'description' => wfMessage( 'pfii-imageinput-width' )->text()
 		); // 200
 		
 		$params[] = array(
 			'name' => 'showdefault',
 			'type' => 'bool',
-			'description' => wfMessage( 'sii-imageinput-showdefault' )->text()
+			'description' => wfMessage( 'pfii-imageinput-showdefault' )->text()
 		); // true
 		
 		return $params;
@@ -88,7 +89,7 @@ class InstantImageInput extends PFFormInput {
 		$showDefault = !array_key_exists( 'showdefault', $other_args ) || $other_args['showdefault'] === 'yes';
 		
 		if ( $showDefault && !array_key_exists( 'default', $other_args ) ) {
-			$other_args['default'] = SIISettings::get( 'defaultImage' );
+			$other_args['default'] = PFIISettings::get( 'defaultImage' );
 		}
 		
 		$defImg = $other_args['default'];
@@ -96,11 +97,11 @@ class InstantImageInput extends PFFormInput {
 		$noImage = is_null( $cur_value ) || trim( $cur_value ) === '';
 		$showInForm = !array_key_exists( 'hide', $other_args ) || trim( $other_args['hide'] ) === 'no';
 		
-		$width = array_key_exists( 'width', $other_args ) ? $other_args['width'] : SIISettings::get( 'defaultWidth' );
+		$width = array_key_exists( 'width', $other_args ) ? $other_args['width'] : PFIISettings::get( 'defaultWidth' );
 		
 		if ( $showInForm && !$noImage ) {
 			if ( $noImage ) {
-				$html .= wfMessage( 'sii-imageinput-loading' )->escaped();
+				$html .= wfMessage( 'pfii-imageinput-loading' )->escaped();
 			}
 			else {
 				global $wgParser;
@@ -109,7 +110,7 @@ class InstantImageInput extends PFFormInput {
 		}
 		
 		if ( $noImage || $cur_value === $defImg ) {
-			$wgOut->addModules( 'sii.image' );
+			$wgOut->addModules( 'pfii.image' );
 			$cur_value = $defImg;
 			
 			$args = array(

@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Klaus Rothenhäusler",
 			"BeginaFelicysym"
 		]
 	},
-	"sii-desc": "Dodaje pole wprowadzenia obrazka, pobierające obrazki z Wikipedii do [https://www.mediawiki.org/wiki/Extension:Semantic_Forms formularzy semantycznych]",
-	"sii-imageinput-loading": "Ładowanie obrazka..."
+	"pfii-desc": "Dodaje pole wprowadzenia obrazka, pobierające obrazki z Wikipedii do [https://www.mediawiki.org/wiki/Extension:Page_Forms formularzy semantycznych]",
+	"pfii-imageinput-loading": "Ładowanie obrazka..."
 }

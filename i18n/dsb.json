@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Klaus Rothenhäusler",
 			"Michawiki"
 		]
 	},
-	"sii-desc": "Zmóžnja zapódaśe wobrazow, kótarež śěgnjo wobraze z Wikipedije do [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Forms]",
-	"sii-imageinput-loading": "Wobraz se zacytujo..."
+	"pfii-desc": "Zmóžnja zapódaśe wobrazow, kótarež śěgnjo wobraze z Wikipedije do [https://www.mediawiki.org/wiki/Extension:Page_Forms Semantic Forms]",
+	"pfii-imageinput-loading": "Wobraz se zacytujo..."
 }

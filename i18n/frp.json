@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Klaus Rothenhäusler",
 			"ChrisPtDe"
 		]
 	},
-	"sii-imageinput-loading": "Chargement de l’émâge..."
+	"pfii-imageinput-loading": "Chargement de l’émâge..."
 }

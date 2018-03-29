@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Klaus Rothenhäusler",
 			"Veeven"
 		]
 	},
-	"sii-imageinput-loading": "బొమ్మ లోడవతుతోంది..."
+	"pfii-imageinput-loading": "బొమ్మ లోడవతుతోంది..."
 }

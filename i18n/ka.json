@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Klaus Rothenhäusler",
 			"David1010"
 		]
 	},
-	"sii-imageinput-loading": "სურათი იტვირთება..."
+	"pfii-imageinput-loading": "სურათი იტვირთება..."
 }

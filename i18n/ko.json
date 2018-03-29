@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Klaus Rothenhäusler",
 			"아라"
 		]
 	},
-	"sii-desc": "[https://www.mediawiki.org/wiki/Extension:Semantic_Forms 시맨틱 양식]에 위키백과에서 그림을 밀어서 그림 입력 추가",
-	"sii-imageinput-loading": "그림을 불러오는 중..."
+	"pfii-desc": "[https://www.mediawiki.org/wiki/Extension:Page_Forms 시맨틱 양식]에 위키백과에서 그림을 밀어서 그림 입력 추가",
+	"pfii-imageinput-loading": "그림을 불러오는 중..."
 }

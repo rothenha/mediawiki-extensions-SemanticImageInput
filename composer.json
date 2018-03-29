@@ -1,0 +1,8 @@
+{
+	"requires": {
+		"MediaWiki": ">=1.29",
+    "extensions": {
+    		"PageForms": ">=3.7.0"
+		}
+	}
+}

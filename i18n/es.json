@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Klaus Rothenhäusler",
 			"Armando-Martin"
 		]
 	},
-	"sii-desc": "Añade una entrada de imágenes que transfiere las imágenes de Wikipedia a [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Forms]",
-	"sii-imageinput-loading": "Cargando la imagen..."
+	"pfii-desc": "Añade una entrada de imágenes que transfiere las imágenes de Wikipedia a [https://www.mediawiki.org/wiki/Extension:Page_Forms Semantic Forms]",
+	"pfii-imageinput-loading": "Cargando la imagen..."
 }

@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Klaus Rothenhäusler",
 			"Linforest",
 			"Liuxinyu970226"
 		]
 	},
-	"sii-desc": "添加图像输入功能，它从维基百科推送图片至[https://www.mediawiki.org/wiki/Extension:Semantic_Forms 语义表单]",
-	"sii-imageinput-loading": "加载图像..."
+	"pfii-desc": "添加图像输入功能，它从维基百科推送图片至[https://www.mediawiki.org/wiki/Extension:Page_Forms 语义表单]",
+	"pfii-imageinput-loading": "加载图像..."
 }

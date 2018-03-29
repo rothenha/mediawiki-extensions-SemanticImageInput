@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Klaus Rothenhäusler",
 			"Fulup"
 		]
 	},
-	"sii-imageinput-loading": "O kargañ ar skeudenn..."
+	"pfii-imageinput-loading": "O kargañ ar skeudenn..."
 }

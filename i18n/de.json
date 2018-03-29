@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kghbln"
+			"Kghbln",
+			"Klaus Rothenhäusler"
 		]
 	},
-	"sii-desc": "Ermöglicht für [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Forms] eine zusätzliche Eingabeart, die den Abruf von Bildern aus den Wikipedias und Wikimedia Commons erlaubt",
-	"sii-imageinput-loading": "Das Bild wird gerade geladen …"
+	"pfii-desc": "Ermöglicht für [https://www.mediawiki.org/wiki/Extension:Page_Forms Semantic Forms] eine zusätzliche Eingabeart, die den Abruf von Bildern aus den Wikipedias und Wikimedia Commons erlaubt",
+	"pfii-imageinput-loading": "Das Bild wird gerade geladen …"
 }

@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Klaus Rothenhäusler",
 			"Emperyan"
 		]
 	},
-	"sii-imageinput-loading": "Resim yükleniyor..."
+	"pfii-imageinput-loading": "Resim yükleniyor..."
 }
